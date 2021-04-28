@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- v3 supports d3.geo.albersUsa() -->
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+		<link rel="stylesheet" href="map.css">
+		<style type="text/css">
+			/* On mouse hover, lighten state color */
+			path:hover {
+				fill-opacity: .7;
+			}
+			div {
+      			text-align: center;
+    		}
+		</style>
+	</head>
+	<body>
+		<div name='headings'>
+			<h3> Which States Have Vaccinated More Of Their Population </h3>
+			<p> kaiwenhe@uab.edu </p>
+		</div>
+		<div>
+			<div id="tooltip"></div>
+			<div id="svg_chart"></div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
